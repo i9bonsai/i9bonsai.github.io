@@ -49,5 +49,5 @@ a:visited {
 }
 
 a:visited, a:hover, a:link {
-    text-decoration: underline;
+    text-decoration: none;
 }

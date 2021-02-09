@@ -37,7 +37,7 @@ tr {
   }
 
 a:link {
-    color: #a3a3a3;
+    color: #8f8f8f;
 }
   
 a:hover {
@@ -45,7 +45,7 @@ a:hover {
 }
 
 a:visited {
-    color: #a3a3a3;
+    color: #8f8f8f;
 }
 
 a:visited, a:hover, a:link {

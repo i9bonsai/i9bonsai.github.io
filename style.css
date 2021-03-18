@@ -1,3 +1,11 @@
+.text-container {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    text-align: center;
+    background-image: linear-gradient(70 deg, white, gray, black);
+    background-size: auto;
+
 #video {
     position: fixed;
     right: 0;
@@ -16,8 +24,6 @@ body {
 
 }
 
-.text-container {
-    position: relative;
 }
 
 table {

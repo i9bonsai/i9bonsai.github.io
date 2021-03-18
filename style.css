@@ -9,6 +9,10 @@
 
 body {
     font-family: 'Cairo', sans-serif;
+    background-image: url(img/citysynth.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
 
 }
 
@@ -28,7 +32,22 @@ td, th {
     padding: 8px;
   }
 
-  tr {
+tr {
     background-color: #dddddd;
   }
-  
+
+a:link {
+    color: #8f8f8f;
+}
+
+a:visited {
+    color: #8f8f8f;
+}
+
+a:visited, a:hover, a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #c7c7c7;
+}

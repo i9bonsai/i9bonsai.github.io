@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Hubballi', cursive;
+    background-color: black;
+    height: 100vh;
+    background-image: url(/img/Ga35HIa.png);
+    background-position: center;
+
+    
+}
+
+h1 {
+    font-size:72px;
+    color: white;
+    letter-spacing:2px;
+    text-align: center;
+    padding-top: 20vh;
+    text-shadow: 0 0 10px rgba(255,255,255, .35);
+    z-index: 9999;
+}
+
+#V1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+}

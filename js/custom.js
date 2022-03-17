@@ -71,11 +71,11 @@ particlesJS("V1", {
       "detect_on": "canvas",
       "events": {
         "onhover": {
-          "enable": true,
+          "enable": false,
           "mode": "grab"
         },
         "onclick": {
-          "enable": true,
+          "enable": false,
           "mode": "push"
         },
         "resize": true
@@ -113,7 +113,7 @@ particlesJS("V1", {
   /* ---- stats.js config ---- */
   
   var count_particles, stats, update;
-  stats = new Stats;
+  stats = new stats;
   stats.setMode(0);
   stats.domElement.style.position = 'absolute';
   stats.domElement.style.left = '0px';
